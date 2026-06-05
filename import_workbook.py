@@ -9,7 +9,7 @@ import pandas as pd
 
 APP_DIR = Path(__file__).parent
 DATA_DIR = APP_DIR / "data"
-SOURCE_WORKBOOK = Path("/Users/avijit_swain/Downloads/driver_analysis_chatbot_kb_static_v2.xlsx")
+SOURCE_WORKBOOK = Path("/Users/Downloads/driver_analysis_chatbot_kb_static_v2.xlsx")
 LOCAL_WORKBOOK = DATA_DIR / "driver_analysis_chatbot_kb_static_v2.xlsx"
 DB_PATH = DATA_DIR / "driver_analysis_workbook.db"
 SCHEMA_PATH = DATA_DIR / "workbook_schema.json"
